@@ -1,0 +1,291 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+nav {
+    background-color: rgb(208, 221, 216);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100vw;
+    border-bottom: 1.5px solid black;
+    z-index: 1;
+}
+
+nav ul li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    list-style: none;
+    text-align: left;
+}
+
+#name {
+    float: left;
+}
+
+#name .navlink {
+    font-style: italic;
+    text-decoration: black;
+    text-transform: uppercase;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.navlink {
+    color: rgb(24, 24, 24);
+    font-size: 14pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.navlink:hover {
+    color: rgb(100, 100, 100);
+}
+
+#name .navlink:hover {
+    color: black;
+}
+
+
+
+.about {
+    margin-top: 175px;
+    display: inline-block;
+}
+
+#about-picture {
+    float: left;
+    margin-left: 100px;
+    width: 30vw;
+}
+
+#about-img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: -12px 12px rgb(226, 99, 49);
+}
+
+.about-title {
+    font-size: 20pt;
+    text-transform: uppercase;
+    padding-top: 50px;
+    border-bottom: 2px solid black;
+}
+
+.about-content {
+    font-size: 14pt;
+    color: rgb(39, 39, 39);
+    margin-right: 200px;
+    padding-top: 20px;
+}
+
+
+
+.project-title {
+    margin-top: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-cat {
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 14pt;
+    text-align: center;
+}
+
+.project-cat ul li {
+    list-style: none;
+}
+
+#cat1 {
+    float: left;
+    margin-left: 35%;
+    padding: 5px;
+    border: 1px solid black ;
+    border-radius: 7px;
+}
+
+#cat2 {
+    float: right;
+    margin-right: 35%;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.fig-1 {
+    height: 775px;
+    width: 625px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    align-content: center;
+}
+
+#work-img1 {
+    height: 625px;
+    width: 625px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.fig-2 {
+    height: 775px;
+    width: 625px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    align-content: center;
+}
+
+#work-img2 {
+    height: 625px;
+    width: 625px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+figcaption h1 {
+    font-size: 15pt;
+    text-transform: uppercase;
+}
+
+figcaption p {
+    font-size: 12pt;
+}
+
+
+
+.contact-text {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-bottom: 2px solid black ;
+}
+
+#contact-h1 {
+    font-size: 30pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#contact-h2 {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#contact-h3 {
+    font-size: 14pt;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#email-link {
+    color: black;
+}
+
+#email-link:hover {
+    color: darkcyan;
+}
+
+.contact-form {
+    background-color: rgb(208, 221, 216);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 40px;
+    margin-left: 34.5%;
+    height: 70px;
+    width: 30%;
+    object-position: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 12pt;
+    font-weight: lighter;
+}
+
+
+
+.resume {
+    margin-top: 125px;
+    margin-left: 25px;
+}
+
+.resume h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.resume h2 {
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.resume ul li {
+    border-left: .5px solid black;
+    list-style: none;
+    padding: 10px;
+}
+
+#experience-link {
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+#exp-link {
+    color: black;
+    text-decoration: none;
+}
+
+#exp-link:hover {
+    color: darkcyan;
+}
+
+.download {
+    margin-left: 25px;
+    padding: 10px;
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: rgb(208, 221, 216);
+}
+
+#resume-download {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+#resume-download:hover {
+    color: rgb(100, 100, 100);
+}
+
+
+
